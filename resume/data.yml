@@ -1,0 +1,193 @@
+/* #*/ export const PERSON = `
+# Any fields left unchanged, please delete so your resume is fully yours!
+
+name:
+  first: 毛玉翔
+  middle:
+  last:
+about:
+position: 前端工程师
+
+birth:
+  year: 1997
+  location: 江西-吉安
+
+# you may add more experiences by duplicating the template
+
+experience:
+- company:
+  position: 江西鸿链科技
+  timeperiod: 2023年5月 - 2024年1月31日
+  description:
+    - description_ : 负责花开上栗云平台：小程序主端的博览馆烟花演出选座功能、以及可视化编辑座位的后台
+    - description_ : 负责供销数字花炮平台：独立开发烟花爆竹供应链平台小程序
+    - description_ : 负责仁泰助学h5平台：独立开发用于困难学子申报奖学金的h5
+    - description_ : 负责萍乡党建陈列馆：独立开发该项目的展馆预约原生小程序以及后台
+    - description_ : 负责上栗群众贴心人：负责该项目的多身份开发、为群众/人大提供反映/处理诉求的小程序平台
+    - description_ : 负责农业社会化服务大屏：负责开发天地图上展示农机作业轨迹、展示育秧/无人机防治等等大屏数据
+    - description_ : 负责体育局干部系统大屏端：独立开发该大屏的图标数据展示、动画效果
+    - description_ : 负责农业社会化服务轨迹生成工具：开发可以批量生成无人机/农机作业轨迹的工具
+    - description_ : 负责公司企业官网：使用Next.js独立开发响应式公司官网
+  website:
+
+- company:
+  position: 湖南聚匠信息科技公司
+  timeperiod: 2022年3⽉ - 2023年4⽉
+  description:
+    - description_ : 负责搜店侠管理端：Taro独立开发管理店铺的发布/求租售的小程序以及多端App
+    - description_ : 负责搜店侠客户端：Taro开发客户端的发布/求租售的小程序以及多端App
+
+- company:
+  position: 长沙大旗网络科技公司
+  timeperiod: 2019年8月  - 2022年2月
+  description:
+    - description_ : 负责大旗技师端App：使用uniapp开发为足浴店技师使用的客户端App
+    - description_ : 负责大旗楼面端App：使用uniapp开发为的管理足浴店的客户端App
+    - description_ : 负责大旗PC管理系统：为足浴店前台使用的综合管理平台
+    - description_ : 负责大旗合伙人系统：
+
+education:
+- degree: 江西生物科技学院
+  timeperiod: 2016年 - 2019年
+  description:
+
+
+
+
+# skill level goes from 0 to 100
+skills:
+- name: HTML5
+  level: 99
+- name: CSS3
+  level: 95
+- name: JavaScript
+  level: 97
+- name: Node.js
+  level: 93
+- name: Vue3
+  level: 60
+- name: React
+  level: 80
+- name: Next.js
+  level: 70
+- name: uniapp
+  level: 99
+- name: echarts
+  level: 99
+- name: React-Native
+  level: 99
+- name: Taro
+  level: 99
+- name: TailwindCss
+  level: 99
+- name: macOS
+  level: 99
+- name: Git
+  level: 99
+knowledge:
+
+skillsDetail:
+- name: 熟练掌握 H5/C3,响应式/Flex/Grid布局
+- name: 熟练掌握 Git 分布式版本控制
+- name: 熟练掌握 JavaScript/ES6-ES11
+- name: 熟练掌握 Vue3/React前端框架
+- name: 熟练掌握 基于Promise的各种网络请求
+- name: 熟练掌握 vuepress/Docusaurus等博客框架
+- name: 熟练掌握 macOS系统开发
+- name: 熟练使用 ChatGPT 提供工作效率
+- name: 熟练掌握 小程序开发/发布/管理
+- name: 熟练掌握 uni-app/Taro/React-Native等多端开发框架
+- name: 熟练掌握 Tailwindcss/ElementUI/uView/Sass/Node/高德地图/天地图等类库
+- name: 了解 Java/mysql/tomcat/JBDC等相关技术
+
+
+
+projects:
+- name: 花开上栗云
+  platform: uniapp
+  timeperiod:
+  description: 为上栗县花炮博览园提供线上选座购票的小程序、效果同猫眼选座
+  detail:
+    - name: 根据坐标点位生成并渲染座位图的状态
+    - name: 实现在线选座、创建订单、微信支付的下单流程
+    - name: 使用canvas绘制门票查验的核销码
+
+- name: 花开上栗云——可视化后台座位编辑
+  platform: vue + elementUi + axios + vue-router + vuex
+  timeperiod:
+  description: 可视化编辑座位的模板、以及区域座位可选售卖时间功能
+  detail:
+    - name: 和客户对接需求、整理需求、提出可行方案并充分商讨后进行采用
+    - name: 实现自由框选座位添加预约售卖批次时间段
+    - name: 针对vue的响应式问题导致的页面更新延迟/卡死 的性能问题做出优化
+
+- name: 供销数字花炮
+  platform: uniapp
+  timeperiod:
+  description: 上栗县烟花爆竹产业供应链服务平台：企业可以在平台进行危爆品原材料或成品的交易，运营中心的综合管理，公安审批运输许可证
+  detail:
+    - name: 对vuex进行高度封装：vuex数据与本地缓存同步、并使用Mixin将数据混入到全局this中，优化了vuex使用繁琐的问题、读取/修改vuex数据更为便捷
+    - name: 使用camera组件的scanCode模式编写自定义扫码界面以实现买卖家入库、出库、签收等业务
+    - name: 使用ucharts图表对危险品流向/运输/交易等数据进行展示，解决ucharts显示层级问题，修改ucharts源码、自定义格式化tooltipFormat
+    - name: 在地图上使用点标记企业分布位置并展示企业详情提供导航服务
+    - name: 对扫码出库等请求做节流防抖优化
+    - name: 系统上线后，先后两次对花炮企业管理人员进行系统培训，具备一定的演讲能力
+
+- name: 体育局人事大屏
+  platform: vue + elementUi + axios + vue-router + v-charts + vue-echarts + echarts
+  timeperiod:
+  description:
+  detail:
+    - name: 实现首页大数字翻页特效
+
+
+- name: 仁泰助学h5
+  platform: uniapp
+  timeperiod:
+  description: 用于困难学子申报奖学金的h5应用
+  detail:
+    - name: 使用webview嵌入贴心人小程序跳转并携带token请求用户身份信息
+    - name: 通过正则表达式定义rules规则再通过validator对form表单做输入即时校验
+    - name: 实现多身份4级审批流程
+- name: 党建陈列馆
+  platform: 原生小程序
+  timeperiod:
+  description: 提供萍乡党建陈列馆的展馆/活动预约、以及周边商品购买的原生小程序
+  detail:
+    - name: 使用mp-html富文本展示展馆介绍
+- name: 党建陈列馆——后台
+  platform: vue + elementUi + axios + vue-router + vuex + lodash + Avue
+  timeperiod:
+  description: 提供萍乡党建陈列馆的展馆/活动预约、以及周边商品购买的原生小程序
+  detail:
+    - name: 使用TinyMCE配合在富文本中嵌入video视频
+    - name: 使用递归创建动态路由菜单
+
+
+  # url: https://github.com/salomonelli/best-resume-ever
+
+# optional, not all resume templates have hobbies included
+hobbies:
+- name: Video Games
+  iconClass: fa fa-gamepad
+  url: https://example.com
+
+- name: Drawing
+  iconClass: fa fa-pencil
+  url: https://example.com
+
+contributions:
+- name: best-resume-ever
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+  url: https://github.com/salomonelli/best-resume-ever
+
+contact:
+  email: cat20201314@163.com
+  phone: 17346625362
+  # street: 1234 Broadway
+  # city: New York
+  # website: johndoe.com
+  # github: johnyD
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: en
+`
